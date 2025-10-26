@@ -5,7 +5,6 @@
 #include "Klasy.h"
 #include "funkcje.h"
 #include "C_Iterate.h"
-#include "RGB_IC.h"
 
 void setup() {
   Serial.begin(115200);
