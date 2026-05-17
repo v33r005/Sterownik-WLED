@@ -50,7 +50,6 @@ class Dimm : public Supla::Control::DimmerLeds {
     void setRGBWValueOnDevice(uint32_t red,
                               uint32_t green,
                               uint32_t blue,
-                              //uint32_t colorBrightness,
                               uint32_t brightness) {
 
         regulacja = brightness;//map(brightness, 0, 1023, 0, 255);
